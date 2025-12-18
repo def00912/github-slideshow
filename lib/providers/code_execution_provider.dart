@@ -168,7 +168,7 @@ func factorial(n int) int {
 
 func main() {
     fmt.Println("Hello, World!")
-    fmt.Printf("Factorial of 5 is: %d\\n", factorial(5))
+    fmt.Printf("Factorial of 5 is: %d\n", factorial(5))
 }''';
 
       case ProgrammingLanguage.rust:
@@ -199,7 +199,7 @@ console.log(\`Factorial of 5 is: \${factorial(5)}\`);''';
       case ProgrammingLanguage.php:
         return '''<?php
 // PHP Hello World
-echo "Hello, World!\\n";
+echo "Hello, World!\n";
 
 // Calculate factorial
 function factorial($n) {
@@ -207,7 +207,7 @@ function factorial($n) {
     return $n * factorial($n - 1);
 }
 
-echo "Factorial of 5 is: " . factorial(5) . "\\n";
+echo "Factorial of 5 is: " . factorial(5) . "\n";
 ?>''';
 
       case ProgrammingLanguage.ruby:
@@ -232,7 +232,7 @@ func factorial(_ n: Int) -> Int {
 }
 
 print("Hello, World!")
-print("Factorial of 5 is: \\(factorial(5))")''';
+print("Factorial of 5 is: \(factorial(5))")''';
 
       case ProgrammingLanguage.kotlin:
         return '''// Kotlin Hello World
