@@ -1,0 +1,41 @@
+name: code_interpreter_app
+description: A Flutter mobile application that interprets and executes code in any programming language using cloud-based AI training.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP client for API calls
+  dio: ^5.4.0
+  
+  # State management
+  provider: ^6.1.1
+  
+  # UI components
+  cupertino_icons: ^1.0.2
+  
+  # Code highlighting
+  flutter_highlight: ^0.7.0
+  
+  # Loading indicators
+  flutter_spinkit: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Add assets if needed
+  # assets:
+  #   - images/
