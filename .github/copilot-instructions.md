@@ -7,7 +7,7 @@ This is a Jekyll-based slideshow presentation using the reveal.js framework. It'
 ## Technology Stack
 
 - **Static Site Generator**: Jekyll (GitHub Pages compatible)
-- **Presentation Framework**: reveal.js (included as a git submodule)
+- **Presentation Framework**: reveal.js (installed via npm)
 - **Markup**: Markdown for slide content
 - **Configuration**: YAML (_config.yml)
 - **Styling**: Sass/SCSS with Solarized theme
@@ -20,7 +20,7 @@ This is a Jekyll-based slideshow presentation using the reveal.js framework. It'
 - `script/`: Utility scripts for development
 - `_config.yml`: Main Jekyll configuration
 - `index.html`: Main presentation entry point
-- `node_modules/reveal.js/`: reveal.js library (git submodule)
+- `node_modules/reveal.js/`: reveal.js library (npm dependency)
 
 ## Development Workflow
 
@@ -34,7 +34,7 @@ This script will:
 - Install Homebrew dependencies (macOS only)
 - Install Ruby version (if using rbenv)
 - Install gem dependencies via Bundler
-- Initialize git submodules (reveal.js)
+- Update git submodules (if any are configured)
 
 ### Local Development
 
@@ -96,7 +96,7 @@ The project uses `html-proofer` for HTML validation. Tests run as part of `scrip
 - Bundler for Ruby gems
 - Jekyll (via github-pages gem)
 - html-proofer for validation
-- Git (for submodule management)
+- Node.js/npm (for reveal.js dependency)
 
 ## Code Style
 
