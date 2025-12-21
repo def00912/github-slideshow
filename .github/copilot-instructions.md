@@ -49,6 +49,6 @@ This is a Jekyll-based slideshow repository using reveal.js for GitHub Learning 
 - Includes html-proofer for validation (>= 3.13.0)
 
 ## Development
-- This is primarily a static site - no build process beyond Jekyll
+- Uses Jekyll as the static site generator to build from Markdown and templates
 - Slides are rendered in order based on post dates (reversed chronologically)
 - reveal.js configuration is in `_config.yml` under the `reveal:` section
