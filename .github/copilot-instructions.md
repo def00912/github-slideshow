@@ -6,7 +6,7 @@ This is a Jekyll-based slideshow repository using reveal.js for GitHub Learning 
 ## Technology Stack
 - **Jekyll**: Static site generator
 - **reveal.js**: HTML presentation framework
-- **Ruby**: For Jekyll and GitHub Pages
+- **Ruby**: Runtime for Jekyll and GitHub Pages compatibility
 - **Markdown**: For slide content
 
 ## Repository Structure
@@ -45,8 +45,8 @@ This is a Jekyll-based slideshow repository using reveal.js for GitHub Learning 
 
 ## Dependencies
 - Managed via Bundler (Gemfile)
-- Uses GitHub Pages gem (>= 207)
-- Includes html-proofer for validation (>= 3.13.0)
+- See Gemfile for current versions and dependencies
+- Uses GitHub Pages gem for deployment compatibility
 
 ## Development
 - Uses Jekyll as the static site generator to build from Markdown and templates
